@@ -1,0 +1,43 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <fstream>
+
+using namespace std;
+
+void genRandomTest(int ncols, int range, char* fileName);
+
+int main(int argc, char** args){
+        
+	if(argc != 4){
+		cerr << "3 arguments are required" << endl;
+		return -1;
+	}
+
+    genRandomTest( atoi(args[1]), atoi(args[2]), args[3]);
+
+	return 0;
+}
+
+void genRandomTest(int ncols, int range, char* fileName){
+  ofstream f_out(fileName);
+  f_out << ncols << endl;
+
+  srand(time(NULL));
+  int elem = -1;
+  for(int i = 0; i < ncols; i++){
+	  elem = rand()%range;
+	  f_out << elem << " ";
+  }
+  f_out << endl;
+  for(int i = 0; i < ncols; i++){
+	  elem = rand()%range;
+	  f_out << elem << " ";
+  }
+
+  f_out << endl;
+
+  f_out << "0 0 " << "1 " << (ncols - 1);
+  f_out.close();
+
+}

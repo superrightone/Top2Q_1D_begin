@@ -1,0 +1,9 @@
+Build time: 108910 ns
+Top2 Query Range(x1, y1, x2, y2): 
+Query time: 5067 ns
+Top1 pos : (0, 2)
+Top2 pos : (0, 5)
+Total weight bits: 21
+A1 array: 728 bits
+A2 array: 728 bits
+Total Byte: 184.625

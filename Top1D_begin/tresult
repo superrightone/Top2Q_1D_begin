@@ -1,0 +1,17 @@
+Build time: 342678 ns
+Top2 Query Range(y1, y2): 
+Query time: 1324 ns
+Query time: 540 ns
+Query time: 1041 ns
+Query time: 1093 ns
+Query time: 434 ns
+Query time: 345 ns
+Query time: 7531 ns
+Query time: 311 ns
+Query time: 318 ns
+Query time: 424 ns
+Average Query time: 1336 ns
+Top1 pos : (72)
+Top2 pos : (64)
+Total weight bits: 5
+A1 array: 984 bits

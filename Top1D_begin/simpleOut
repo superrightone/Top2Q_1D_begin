@@ -1,0 +1,55 @@
+Build time: 172288 ns
+Top2 Query Range(y1, y2): 
+Query time: 674 ns
+Query time: 1180 ns
+Query time: 505 ns
+Query time: 642 ns
+Query time: 466 ns
+Query time: 837 ns
+Query time: 369 ns
+Query time: 500 ns
+Query time: 454 ns
+Query time: 441 ns
+Average Query time: 606 ns
+Query 1
+Top1 pos : (4)
+Top2 pos : (5)
+-----------------------------------------
+Query 2
+Top1 pos : (6)
+Top2 pos : (6)
+-----------------------------------------
+Query 3
+Top1 pos : (0)
+Top2 pos : (0)
+-----------------------------------------
+Query 4
+Top1 pos : (4)
+Top2 pos : (3)
+-----------------------------------------
+Query 5
+Top1 pos : (0)
+Top2 pos : (0)
+-----------------------------------------
+Query 6
+Top1 pos : (9)
+Top2 pos : (8)
+-----------------------------------------
+Query 7
+Top1 pos : (4)
+Top2 pos : (0)
+-----------------------------------------
+Query 8
+Top1 pos : (4)
+Top2 pos : (5)
+-----------------------------------------
+Query 9
+Top1 pos : (0)
+Top2 pos : (0)
+-----------------------------------------
+Query 10
+Top1 pos : (4)
+Top2 pos : (5)
+-----------------------------------------
+Total weight bits: 2
+A1 array: 728 bits
